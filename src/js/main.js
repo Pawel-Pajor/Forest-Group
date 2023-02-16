@@ -9,6 +9,7 @@ const footerYear = document.querySelector(".footer__year");
 
 const handleNav = () => {
     nav.classList.toggle("nav__mobile--active");
+    document.body.classList.toggle("sticky-body");
 
     allNavItems.forEach((item) => {
         item.addEventListener("click", () => {

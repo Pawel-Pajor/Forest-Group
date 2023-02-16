@@ -18,6 +18,10 @@ body {
     background-color: white;
 }
 
+.sticky-body {
+    overflow: hidden;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 100%;
@@ -458,6 +462,7 @@ body {
     opacity: 0;
     transform: translateY(100%);
     animation: show-cookies 0.5s 0.5s forwards;
+    z-index: 1000;
 }
 
 .cookie-btn {
